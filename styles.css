@@ -1,0 +1,829 @@
+.strava .avatar {
+    display: inline-block;
+    position: relative;
+}
+
+    .strava  .avatar img {
+        width: 100%;
+        height: 100%;
+    }
+
+.strava .avatar-sm {
+    height: 24px;
+    width: 24px;
+}
+
+    .strava  .avatar-sm.offset-l {
+        margin-left: -44px;
+    }
+
+.strava .avatar-default {
+    height: 32px;
+    width: 32px;
+}
+
+    .strava  .avatar-default.offset-l {
+        margin-left: -52px;
+    }
+
+.strava .avatar-md {
+    height: 48px;
+    width: 48px;
+}
+
+    .strava  .avatar-md.offset-l {
+        margin-left: -68px;
+    }
+
+.strava .avatar-lg {
+    height: 64px;
+    width: 64px;
+}
+
+    .strava  .avatar-lg.offset-l {
+        margin-left: -84px;
+    }
+
+.strava .avatar-xl {
+    height: 124px;
+    width: 124px;
+}
+
+    .strava  .avatar-xl.offset-l {
+        margin-left: -144px;
+    }
+
+.strava .avatar-xxl {
+    height: 192px;
+    width: 192px;
+}
+
+    .strava  .avatar-xxl.offset-l {
+        margin-left: -212px;
+    }
+
+.strava .avatar-athlete img {
+    border-radius: 50%;
+    background-color: #f5f5f5;
+}
+
+.strava .offset-l {
+    float: left;
+    vertical-align: top;
+}
+
+
+
+.strava .badge {
+    background-image: url(http://www.strava.com/assets/sprites/sprites-badges.png);
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+    text-indent: -999em;
+    vertical-align: middle;
+    z-index: 1;
+    margin-top: -2px;
+}
+
+    .strava  .badge.employee {
+        background-position: 0 -45px;
+        width: 20px;
+        height: 26px;
+    }
+
+    .strava  .badge.premium {
+        background-position: -25px -45px;
+        width: 21px;
+        height: 24px;
+    }
+
+    .strava  .badge.ambassador {
+        background-position: -51px -45px;
+        width: 21px;
+        height: 26px;
+    }
+
+    .strava  .badge.pro {
+        background-position: -77px -45px;
+        width: 24px;
+        height: 25px;
+    }
+
+    .strava  .badge.tiny {
+        height: 18px;
+    }
+
+        .strava  .badge.tiny.employee {
+            background-position: 0 0;
+            width: 12px;
+        }
+
+        .strava  .badge.tiny.premium {
+            background-position: -17px 0;
+            width: 14px;
+        }
+
+        .strava  .badge.tiny.ambassador {
+            background-position: -36px 0;
+            width: 12px;
+        }
+
+        .strava  .badge.tiny.pro {
+            background-position: -53px 0;
+            width: 15px;
+        }
+
+    .strava  .badge.md {
+        height: 31px;
+    }
+
+        .strava  .badge.md.employee {
+            background-position: 0 -75px;
+            width: 24px;
+        }
+
+        .strava  .badge.md.premium {
+            background-position: -29px -75px;
+            width: 26px;
+        }
+
+        .strava  .badge.md.ambassador {
+            background-position: -60px -75px;
+            width: 25px;
+        }
+
+        .strava  .badge.md.pro {
+            background-position: -89px -75px;
+            width: 29px;
+        }
+
+    .strava  .badge.lg.employee {
+        background-position: 0 -110px;
+        width: 29px;
+        height: 38px;
+    }
+
+    .strava  .badge.lg.premium {
+        background-position: -34px -110px;
+        width: 30px;
+        height: 35px;
+    }
+
+    .strava  .badge.lg.ambassador {
+        background-position: -69px -110px;
+        width: 30px;
+        height: 38px;
+    }
+
+    .strava  .badge.lg.pro {
+        background-position: -104px -110px;
+        width: 35px;
+        height: 36px;
+    }
+
+    .strava  .badge.inline {
+        margin-left: 5px;
+    }
+
+    .strava  .avatar .badge, .strava .badge.sm {
+        height: 21px;
+    }
+
+        .strava  .avatar .badge.employee, .strava .badge.sm.employee {
+            background-position: 0 -20px;
+            width: 16px;
+        }
+
+        .strava  .avatar .badge.premium, .strava .badge.sm.premium {
+            background-position: -21px -20px;
+            width: 17px;
+        }
+
+        .strava  .avatar .badge.ambassador, .strava .badge.sm.ambassador {
+            background-position: -43px -20px;
+            width: 16px;
+        }
+
+        .strava  .avatar .badge.pro, .strava .badge.sm.pro {
+            background-position: -64px -20px;
+            width: 19px;
+        }
+
+.strava .avatar .badge {
+    position: absolute;
+    top: -5px;
+    left: -3px;
+}
+
+    .strava  .avatar .badge.pro {
+        left: -3px;
+        top: -3px;
+    }
+
+    .strava  .avatar .badge.tiny {
+        height: 16px;
+        top: -3px;
+        left: -6px;
+    }
+
+        .strava  .avatar .badge.tiny.employee {
+            background-position: 0 0;
+            width: 12px;
+        }
+
+        .strava  .avatar .badge.tiny.premium {
+            background-position: -17px 0;
+            width: 14px;
+        }
+
+        .strava  .avatar .badge.tiny.ambassador {
+            background-position: -36px 0;
+            width: 12px;
+        }
+
+        .strava  .avatar .badge.tiny.pro {
+            top: -2px;
+            background-position: -53px 0;
+            width: 15px;
+        }
+
+.strava .avatar.lg {
+    height: 100px;
+    width: 100px;
+}
+
+.strava .avatar-md .badge.tiny {
+    top: -4px;
+    left: -6px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 2) {
+    .strava  .badge {
+        background-image: url(http://www.strava.com/assets/sprites/sprites-badges.png);
+        background-size: 139px 148px;
+    }
+}
+
+.strava .tipsy {
+    font-size: 11px;
+    position: absolute;
+    padding: 5px;
+    z-index: 100000;
+}
+
+.strava .tipsy-inner {
+    background-color: #000;
+    color: #FFF;
+    max-width: 200px;
+    padding: 3px 8px 2px 8px;
+    text-align: center;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.strava .tipsy-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 5px dashed #000;
+}
+
+.strava .tipsy-arrow-n {
+    border-bottom-color: #000;
+}
+
+.strava .tipsy-arrow-s {
+    border-top-color: #000;
+}
+
+.strava .tipsy-arrow-e {
+    border-left-color: #000;
+}
+
+.strava .tipsy-arrow-w {
+    border-right-color: #000;
+}
+
+.strava .tipsy-n .tipsy-arrow {
+    top: 0px;
+    left: 50%;
+    margin-left: -5px;
+    border-bottom-style: solid;
+    border-top: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.strava .tipsy-nw .tipsy-arrow {
+    top: 0;
+    left: 10px;
+    border-bottom-style: solid;
+    border-top: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.strava .tipsy-ne .tipsy-arrow {
+    top: 0;
+    right: 10px;
+    border-bottom-style: solid;
+    border-top: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.strava .tipsy-s .tipsy-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-top-style: solid;
+    border-bottom: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.strava .tipsy-sw .tipsy-arrow {
+    bottom: 0;
+    left: 10px;
+    border-top-style: solid;
+    border-bottom: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.strava .tipsy-se .tipsy-arrow {
+    bottom: 0;
+    right: 10px;
+    border-top-style: solid;
+    border-bottom: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.strava .tipsy-e .tipsy-arrow {
+    right: 0;
+    top: 50%;
+    margin-top: -5px;
+    border-left-style: solid;
+    border-right: none;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.strava .tipsy-w .tipsy-arrow {
+    left: 0;
+    top: 50%;
+    margin-top: -5px;
+    border-right-style: solid;
+    border-left: none;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.strava .tipsy-inner {
+    text-align: left;
+}
+
+.strava h1, .strava .activities .details a, .strava .timestamp, .strava .achievements .details p {
+    display: block;
+}
+
+h1, .strava .activities .details a, .strava .timestamp, .strava .achievements .details p, .strava #segment .leaderboards td:nth-child(3) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.strava  body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.strava {
+    font-size: 62.5%;
+    font-family: "Helvetica",Arial,sans-serif;
+}
+
+.strava {
+    font-size: 12px;
+    line-height: 1.25em;
+}
+
+.strava {
+    font-weight: 300;
+    width: auto;
+    color: #333;
+    min-width: 200px;
+}
+
+
+
+.strava h1, .strava h2, .strava h3, .strava p, .strava ul, .strava li {
+    margin: 0;
+    padding: 0;
+}
+
+.strava h1, .strava h2 {
+    line-height: 1.2em;
+}
+
+.strava h1 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 1px;
+}
+
+    .strava  h1.compact {
+        font-size: 1.1em;
+    }
+
+.strava h2 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+    .strava  h2.compact {
+        font-size: 1em;
+    }
+
+.strava h3 {
+    font-size: 12px;
+}
+
+.strava a, .strava a:link {
+    color: #333;
+    text-decoration: none;
+    border: none;
+}
+
+    .strava  a img, .strava a:link img {
+        border: none;
+    }
+
+    .strava  a:hover, .strava a:link:hover {
+        color: #007FB6;
+    }
+
+.strava strong, .strava .location {
+    font-weight: 600;
+}
+
+.strava abbr {
+    text-decoration: none;
+    border: none;
+}
+
+.strava .header, .strava .content {
+    padding: 10px;
+}
+
+.strava .timestamp {
+    color: #999;
+    font-size: 0.9em;
+}
+
+.strava .header {
+    background: #FFF;
+}
+
+    .strava  .header .branding {
+        float: right;
+        margin-left: 20px;
+        display: block;
+        height: 19px;
+        width: 87px;
+        overflow: hidden;
+        text-indent: -1000px;
+        background: url(http://www.strava.com/images/sprites-widget.png) no-repeat 0px 0px;
+    }
+
+    .strava  .header .avatar {
+        height: 50px;
+        width: 50px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    .strava  .header .details h1 {
+        white-space: nowrap;
+        clear:none;
+    }
+    
+    
+
+.strava .content {
+    clear: both;
+    line-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 100%;
+}
+
+.strava .activities > li {
+    position: relative;
+    display: block;
+    clear: both;
+    list-style: none;
+    min-height: 54px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+    line-height: 1.3em;
+}
+
+    .strava .activities > li:last-child {
+        border: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+.strava .activities .details {
+    margin-left: 60px;
+}
+
+.strava .activities .mapThumb {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+    padding: 1px;
+    border: 1px solid #ccc;
+}
+
+.strava .activities .athlete-name, .strava .activities .timestamp {
+    font-size: 11px;
+}
+
+.strava .activities .athlete-name {
+    color: #666;
+}
+
+.strava .activities .avatar {
+    float: left;
+    margin-left: 4px;
+    margin-top: 2px;
+}
+
+.strava .activities .badge {
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+.strava a img.map, .strava .map {
+    width: 566px;
+    height: 228px;
+}
+
+.strava .stats {
+    line-height: 1em;
+    white-space: nowrap;
+}
+
+    .strava .stats li {
+        line-height: 1em;
+        display: inline-block;
+        margin: 0 1em 0 0;
+        padding: 0;
+        height: auto;
+        border: none;
+    }
+
+.strava .achievements {
+    background: #FFF;
+    color: #666;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    height: 33px;
+    overflow: hidden;
+}
+
+    .strava .achievements h2 {
+        font-weight: 600;
+        font-size: 1em;
+        margin-top: 2px;
+    }
+
+    .strava .achievements .details {
+        margin-left: 37px;
+    }
+
+    .strava .achievements .icon-achievement {
+        float: left;
+        margin-right: 10px;
+    }
+
+.strava .sprite {
+    background-image: url(http://www.strava.com/assets/sprites/sprites-widget.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 32px;
+    text-indent: -1000px;
+    line-height: 1em;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+
+    .strava .sprite.icon-achievement {
+        display: block;
+        width: 27px;
+        background-position: 0 -20px;
+    }
+
+    .strava .sprite.icon-time {
+        width: 24px;
+        background-position: 0 -52px;
+    }
+
+    .strava .sprite.icon-rides {
+        width: 38px;
+        background-position: 0 -84px;
+    }
+
+    .strava .sprite.icon-elevation {
+        width: 37px;
+        background-position: 0 -116px;
+    }
+
+    .strava .sprite.icon-distance {
+        width: 30px;
+        background-position: 0 -148px;
+    }
+
+    .strava .sprite.distance, .strava .sprite.elevation, .strava .sprite.grade, .strava .sprite.time {
+        height: 18px;
+    }
+
+    .strava .sprite.distance {
+        width: 20px;
+        background-position: -50px -150px;
+    }
+
+    .strava .sprite.elevation {
+        width: 30px;
+        background-position: -50px -121px;
+    }
+
+    .strava .sprite.grade {
+        width: 30px;
+        background-position: -51px -178px;
+    }
+
+    .strava .sprite.time {
+        width: 20px;
+        background-position: -50px -56px;
+    }
+
+    .strava .sprite.help {
+        background-position: -90px -22px;
+        height: 10px;
+        width: 10px;
+        margin-right: -15px;
+        padding: 1px;
+        cursor: help;
+    }
+
+.strava .footer {
+    display: block;
+    clear: both;
+}
+
+    .strava .footer a {
+        height: 1em;
+        font-size: 0.8em;
+        line-height: 1em;
+        font-weight: 600;
+        background-color: #FC4C02;
+        color: #FFF;
+        text-decoration: none;
+        display: block;
+        padding: 7px 10px 5px;
+        float: right;
+        clear: both;
+        -moz-border-radius: 0 0 3px 3px;
+        -webkit-border-radius: 0 0 3px 3px;
+        border-radius: 0 0 3px 3px;
+        white-space: nowrap;
+    }
+
+        .strava  .footer a em {
+            font-style: normal;
+        }
+
+        .strava  .footer a:hover {
+            color: #fff;
+        }
+
+.strava {
+    min-width: 360px;
+}
+
+    .strava .header, .strava .content {
+        max-width: 568px;
+        margin: 0 auto;
+    }
+
+    .strava .header {
+        min-height: 54px;
+        padding-bottom: 0;
+        overflow: hidden;
+    }
+
+        .strava .header .stats {
+            margin-top: 4px;
+            color: #666;
+        }
+
+            .strava .header .stats, .strava .header .stats li {
+                line-height: 1em;
+            }
+
+    .strava .content .mapContainer a {
+        position: relative;
+        display: block;
+        text-align: center;
+        border: 1px solid #666;
+    }
+
+    .strava h1, .strava .achievements, .strava #summary h1, .strava #summary .achievements {
+        font-weight: 300;
+    }
+
+        .strava h1 a, .strava .achievements a, .strava #summary h1 a, .strava #summary .achievements a {
+            font-weight: 600;
+        }
+
+.strava .athlete-summary h3 {
+    font-size: 0.8em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.strava .club-summary h3 {
+    font-size: 22px;
+    font-weight: 300;
+    height: 28px;
+}
+
+@media only screen and (max-width: 240px) {
+    .strava .badge, .strava .tag {
+        display: none;
+    }
+
+    .strava .header .branding {
+        float: right;
+        margin: -2px -10px 0 0;
+        -moz-transform: scale(0.7);
+        -webkit-transform: scale(0.7);
+        -o-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        transform: scale(0.7);
+    }
+
+    .strava .header h2 {
+        font-size: 1em;
+    }
+
+    .strava .activities li .avatar {
+        height: 26px;
+        width: 26px;
+        margin-right: 6px;
+        margin-top: -2px;
+    }
+
+    .strava .activities li .mapThumb {
+        height: 40px;
+        width: 40px;
+    }
+
+    .strava .activities li .details {
+        margin-left: 36px;
+    }
+
+    .strava .activities li .athlete-name {
+        font-weight: 400;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .strava .activities li .stats li {
+        margin-right: 6px;
+    }
+
+    .strava .activities li .timestamp {
+        color: #999;
+        font-size: 11px;
+    }
+
+    .strava .footer em {
+        display: none;
+    }
+}
